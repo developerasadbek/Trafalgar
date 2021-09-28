@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1285px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+.header{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.header-list{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none; 
+}
+.header-link{
+    text-decoration: none;
+    color: #000;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    opacity: 60%;
+}
+.header-link:hover{
+    font-size: 20px;
+}
+.active{
+    opacity: 1;
+}
+
+/* Virtual */
+.virtual{
+    display: flex;
+    justify-content: space-between;
+}
+.virtual-left-side{
+    width: 445px;
+    height: 338px;
+    margin-top: 186px;
+}
+.virtual-heading{
+    width: 427px;
+    height: 112px;
+    font-family: Mulish;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+.virtual-text{
+    width: 445px;
+    height: 96px;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom: 55px;
+    opacity: 60%;
+}
+.virtual-button{
+    text-decoration: none;
+    color: white;
+    border: 2px solid #458FF6;
+    padding: 17px 40px;
+    background-color: #458FF6;
+    border-radius: 55px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 60px;
+}
+.virtual-button:hover{
+    color: #458FF6;
+    background-color: #fff;
+    border: 2px solid #458FF6;  
+}
+/* Servise */
+.servise{
+    text-align: center;
+    width: 952px;
+    height: 172px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.servise-heading{
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+.servise-line{
+    width: 56px;
+    height: 2px;
+}
+.servise-text{
+    width: 952px;
+    height: 60px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    opacity: 0.5;   
+}
+.servise-box-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -100px;
+    width: 1120px;
+    height: 745px;
+    margin-bottom: 70px;
+}
+.servise-box-item{
+    list-style-type: none;
+    width: 350px;
+    height: 354px;
+    text-align: left;
+    padding-left: 37px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+.servise-box-item:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.9);
+}
+.servise-box-logo{
+    padding: 70px 270px 0px 0px;
+}
+.servise-box-heading{
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.servise-box-link{
+    text-decoration: none;
+    color: #000;
+}
+.servise-box-text{
+    width: 266px;
+    height: 84px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+.box-3{
+    margin-top: -15px;
+}
+.box-5{
+    padding-bottom: 20px;
+}
+.section-button{
+    text-decoration: none;
+    color: #458FF6;
+    border: 2px solid #458FF6;
+    padding: 17px 40px;
+    background-color: #fff;
+    border-radius: 55px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 60px;
+}
+.section-button:hover{
+    color: #fff;
+    background-color: #458FF6;
+    border: 2px solid #458FF6;
+}
