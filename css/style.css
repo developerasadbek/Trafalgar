@@ -4,6 +4,10 @@
 *{
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 body{
     padding: 0;
     margin: 0;
@@ -12,7 +16,6 @@ body{
     max-width: 1285px;
     padding: 0 15px;
     margin: 0 auto;
-    
 }
 .header{
     width: 1250px;
@@ -38,7 +41,9 @@ body{
     opacity: 60%;
 }
 .header-link:hover{
-    font-size: 20px;
+    color: #000;
+    opacity: 1;
+    transition: 0.6s;
 }
 .active{
     opacity: 1;
@@ -91,14 +96,15 @@ body{
     color: #458FF6;
     background-color: #fff;
     border: 2px solid #458FF6;  
+    transition: 0.7s;
 }
 /* Servise */
 .servise{
     text-align: center;
     width: 952px;
-    height: 172px;
     margin-top: 200px;
     margin-left: 150px;
+    margin-bottom: 220px;
 }
 .servise-heading{
     font-family: Mulish;
@@ -141,6 +147,7 @@ body{
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
 }
 .servise-box-item:hover{
+    transition: 0.5s;
     transform: scale(1.05);
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.9);
 }
@@ -185,7 +192,293 @@ body{
     line-height: 60px;
 }
 .section-button:hover{
+    transition: 0.5s;
     color: #fff;
     background-color: #458FF6;
     border: 2px solid #458FF6;
+}
+
+/* Leading */
+
+.leading-top{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 265px;
+}
+.leading-heading{
+    width: 480px;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+.leading-text{
+    color: #7D7987;
+    width: 450px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.leading-hr{
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    display: block;
+}
+/* Bottom */
+.leading-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 265px;
+}
+.leading-bottom-heading{
+    width: 255px;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+.leading-bottom-text{
+    color: #7D7987;
+    width: 420px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+/* Saying */
+.saying{
+    width: 1150px;
+    height: 425px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    margin-left: 30px;
+    border-radius: 25px;
+    margin-bottom: 45px;
+}
+.saying-heading{
+    color: white;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    padding-top: 65px;
+}
+.saying-hr{
+    margin-left: 545px;
+    width: 56px;
+    height: 2px;
+    display: block;
+    background-color: #fff;
+    margin-bottom: 65px;
+}
+.edvard{
+    display: flex;
+}
+.saying-image{
+    margin-left: 120px;
+}
+.heading-wrapper{
+    margin-left: 30px;
+}
+.saying-wrapper-heading{
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    color: white; 
+    margin-bottom: 0;
+}
+.saying-span{
+    color: white;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;    
+}
+.saying-text{
+    color: white;
+    width: 420px;
+    font-family: Mulish;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 110px;
+}
+
+/* Slider */
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 215px;
+}
+.span-wrapper{
+    display: flex;
+}
+.slider-span{
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-color: #5B9BF3;
+    border-radius: 50%;
+}
+.slider-span-active{
+    margin: 0;
+    padding: 0;
+    background-color: #5B9BF3;
+}
+.slider-img1{
+    margin-right: 90px;
+}
+.slider-img2{
+    margin-left: 90px;
+}
+
+/* Check */
+.check-heading{
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;   
+}
+.check-hr{
+    width: 56px;
+    height: 2px;
+    display: block;
+    background-color: #000;
+    margin-left: 600px;
+    margin-bottom: 80px;
+}
+.check-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.check-item{
+    width: 350px;
+    height: 552px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+.check-item:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.9);
+}
+.check-list-heading{
+    width: 251px;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 42px;
+}
+.check-text{
+    color: #7D7987;
+    width: 266px;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 42px;   
+}
+.chech-link{
+    color:#4089ED;
+    text-decoration: none;
+    margin-left: 42px;
+
+}
+.a-link{
+    margin-left: 10px;
+}
+.check-button{
+    margin-left: 550px;
+    display: block;
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    border: 2px solid #4089ED;
+    color: #4089ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    margin-bottom: 200px;
+}
+.check-button:hover{
+    transition: 0.5s;
+    background-color: #4089ED;
+    color: white;
+}
+/* Footer */
+.footer{
+    width: 100%;
+    height: 432px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+.footer-left-text{
+    color: white;
+    width: 390px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;  
+}
+.footer-left-span{
+    color: white;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; 
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+.right-list{
+    list-style-type: none;
+    color: white;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+    margin-top: 0;
+}
+.right-item-active{
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.acrive{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 115px;
 }
