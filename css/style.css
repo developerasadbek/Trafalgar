@@ -334,11 +334,13 @@ body{
     display: block;
     background-color: #5B9BF3;
     border-radius: 50%;
+    opacity: 0.5;
 }
 .slider-span-active{
     margin: 0;
     padding: 0;
     background-color: #5B9BF3;
+    opacity: 1;
 }
 .slider-img1{
     margin-right: 90px;
